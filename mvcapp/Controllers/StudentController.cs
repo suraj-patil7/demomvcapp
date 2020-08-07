@@ -17,6 +17,7 @@ namespace mvcapp.Controllers
         public ActionResult Index()
         {
             var model=newdtset.GetStudents();
+
             return View(model);
         }
     }
